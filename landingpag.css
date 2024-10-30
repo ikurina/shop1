@@ -1,0 +1,136 @@
+.ladi-box{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.ladi-element{
+    position: absolute;
+}
+
+/* Thanh tim kiem */
+#container1{
+    display: flex;
+    padding: 10px;
+}
+
+#head-item1{
+    display: flex;
+    padding-left: 260px;
+    padding-top: 10px;
+    gap: 20px;
+}
+
+#box1 > .search-box{
+position: absolute;
+width: 230px;
+height: 40px;
+overflow: hidden;
+background-color: rgb(241, 241, 243);
+z-index: -1;
+}
+
+#search-item1 {
+    width: 20px;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+#item-left {
+    width: 20px;
+    
+}
+
+/* Phan Tong Quan */
+.headline1 {
+    display: flex;
+    flex-direction: column;
+}
+
+.headline2 {
+    display: flex;
+    gap: 35px;
+    padding-left: 20px;
+}
+
+#line1 {
+    top: 100px;
+    left: 0px;
+    width: 420px;
+}
+
+#line2 {
+    top: 100px;
+    left: 16px;
+    width: 83px;
+}
+
+#line1 > .line-head {
+    width: 100%;
+    padding: 8px;
+}
+
+#line2 > .line-head {
+    width: 100%;
+    padding: 8px;
+}
+
+#line1 > .line-head > .line-container {
+    border-top: 2px solid rgb(233, 233, 233);
+
+}
+
+#line2 > .line-head > .line-container {
+    border-top: 2px solid rgb(18, 18, 18);
+}
+
+.line-head > .line-container {
+    width: 100%;
+    height: 100%;
+    border-bottom: 0 !important;
+    border-right: 0 !important;
+}
+
+.line-head {
+    position: relative;
+}
+
+
+.title1 {
+    width: 74px;
+}
+
+.title2 {
+    width: 63px;
+}
+
+.title-headline1 {
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 1.6;
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+
+.title-headline2 {
+    font-size: 14px;
+    line-height: 1.6;
+    font-weight: lighter;
+    text-align: center;
+}
+
+/* Image san pham*/
+#product1 {
+    width: 75%;
+    position: absolute;
+}
+
+body {
+    font-family: Roboto, sans-serif;
+}
+    
+
+div{
+    display: block;
+}
