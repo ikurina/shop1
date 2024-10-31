@@ -144,7 +144,8 @@ body {
     display: flex;
     position: relative;
     padding-left: 90px;
-    top: 740px;
+    gap: 5px;
+    top: 730px;
 }
 
 .head-item2 {
@@ -153,17 +154,47 @@ body {
     height: 30px;
 }
 
+.group1 {
+    position: absolute;
+}
+
 #item-rotate {
     position: absolute;
     width: 30px;
-    top: 10px;
+    top: 15px;
 
 }
 
 .headline-group {
     color: white;
     position: absolute;
+    padding-left: 30px;
+    top: 5px;
 
+}
+
+.headline-group0 {
+    position: absolute;
+    color: white;
+    font-weight: lighter;
+    text-decoration: line-through;
+    top: 10px;
+    padding-top: 20px;
+}
+
+.headline-gr1 {
+    margin: 0px;
+
+}
+
+.headline-gr2 {
+    font-weight: lighter;
+    margin-top: 0px;
+}
+
+.group2{
+    padding-left: 380px;
+    padding-top: 25px;
 }
 
 div{
