@@ -3,6 +3,7 @@
     width: 100%;
     height: 100%;
     overflow: hidden;
+    top: 500px;
 }
 
 .ladi-element{
@@ -13,32 +14,35 @@
 #container1{
     display: flex;
     padding: 10px;
+    width: 100%;
+    height: 80px;
 }
 
 #head-item1{
     display: flex;
-    padding-left: 260px;
+    padding-left: 480px;
     padding-top: 10px;
-    gap: 20px;
+    gap: 40px;
 }
 
 #box1 > .search-box{
 position: absolute;
-width: 230px;
-height: 40px;
+width: 400px;
+height: 80px;
 overflow: hidden;
 background-color: rgb(241, 241, 243);
 z-index: -1;
 }
 
 #search-item1 {
-    width: 20px;
-    padding-top: 10px;
+    width: 50px;
+    padding-top: 15px;
     padding-left: 10px;
 }
 
 #item-left {
-    width: 20px;
+    width: 60px;
+    height: auto;
     
 }
 
@@ -50,20 +54,20 @@ z-index: -1;
 
 .headline2 {
     display: flex;
-    gap: 35px;
+    gap: 70px;
     padding-left: 20px;
 }
 
 #line1 {
-    top: 100px;
+    top: 160px;
     left: 0px;
-    width: 420px;
+    width: 768px;
 }
 
 #line2 {
-    top: 100px;
+    top: 160px;
     left: 16px;
-    width: 83px;
+    width: 130px;
 }
 
 #line1 > .line-head {
@@ -96,17 +100,16 @@ z-index: -1;
     position: relative;
 }
 
-
 .title1 {
-    width: 74px;
+    width: 120px;
 }
 
 .title2 {
-    width: 63px;
+    width: 120px;
 }
 
 .title-headline1 {
-    font-size: 14px;
+    font-size: 20px;
     font-weight: bold;
     line-height: 1.6;
     color: rgb(0, 0, 0);
@@ -114,7 +117,7 @@ z-index: -1;
 }
 
 .title-headline2 {
-    font-size: 14px;
+    font-size: 20px;
     line-height: 1.6;
     font-weight: lighter;
     text-align: center;
@@ -122,15 +125,59 @@ z-index: -1;
 
 /* Image san pham*/
 #product1 {
-    width: 400px;
+    width: 100%;
     position: absolute;
+    padding-top: 10px;
+    z-index: -1;
+    max-width: 768px;
+    max-height: auto;
+}
+
+#container2 {
 }
 
 body {
     font-family: Roboto, sans-serif;
 }
-    
+
+#headline3 {
+    display: flex;
+    position: relative;
+    padding-left: 90px;
+    top: 740px;
+}
+
+.head-item2 {
+    position: relative;
+    width: 30px;
+    height: 30px;
+}
+
+#item-rotate {
+    position: absolute;
+    width: 30px;
+    top: 10px;
+
+}
+
+.headline-group {
+    color: white;
+    position: absolute;
+
+}
 
 div{
     display: block;
+}
+
+@media (max-width: 768px) {
+    /* Các quy tắc CSS dành cho màn hình có chiều rộng tối đa 768px */
+    body {
+        font-size: 18px;
+    }
+
+
+    .container {
+        width: 90%;
+    }
 }
