@@ -1,0 +1,468 @@
+body {
+    font-family: Roboto, sans-serif;
+}
+
+
+
+#grid-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 50px 50px auto auto auto;
+    align-items: center;
+}
+
+/* Thanh công cụ */
+.first {
+    background-color: blue;
+    height: 30px;
+    display: flex;
+}
+
+.head {
+    background-color: #f1f1f3;
+    height: 30px;
+    flex: 1;
+    border: 10px solid white;
+}
+
+.search {
+    position: absolute;
+    width: 20px;
+    top: 33px;
+    left: 23px;
+
+}
+
+.title {
+    position: absolute;
+    color: #7d7d7d;
+    font-weight: lighter;
+    top: 35px;
+    left: 50px;
+    margin: 0px;
+}
+
+.box1 {
+    width: 30px;
+    margin-left: 25%;
+}
+
+.item {
+    flex: 5;
+}
+
+.item1 {
+    background-color: white;
+    height: 30px;
+    width: 30px;
+}
+
+
+/* Phần Tổng quan */
+.second {
+
+    display: flex;
+    flex-direction: column;
+    height: 30px;
+}
+
+.title-headline1 {
+    display: flex;
+    height: 30px;
+    gap: 10px;
+    
+}
+.headline1 {
+    margin: 5px;
+    text-align: center; 
+
+}
+.style0 {
+    flex: 1;
+}
+.style1 {
+    margin-top: 8px;
+    font-weight: lighter;
+    flex: 1;
+    
+}
+
+
+.line {
+    background-color: rgb(233, 233, 233);
+}
+
+
+.line-black{
+    background-color: black;
+    height: 2px;
+    width: 16%;
+    margin-left: 4%;
+
+}
+
+
+/* Phần hình ảnh */
+.third {
+    height: auto;
+}
+
+.slider {
+    position: relative;
+    max-width: 800px;
+    max-height: 800px;
+    margin: auto;
+    overflow: hidden;
+    
+}
+
+.slider {
+    display: flex;
+    transition: transform 0.5s ease;
+}
+
+.slider img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(255, 255, 255, 0.7);
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    z-index: 10;
+}
+
+.prev {
+    left: 10px;
+}
+.next {
+    right: 10px;
+}
+
+/* Phần hiện giá tiền */
+.four {
+    display: flex;
+    width: 100%;
+    height: 50px;
+
+
+}
+
+.color1 {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    background-image: linear-gradient(90deg, rgb(223, 38, 52), rgb(245, 85, 70));
+    background-color: initial;
+    height: 60px;
+    width: 60%;
+    flex: 1;
+}
+    .sale1 {
+        width: 160px;
+    }
+
+    .sale-icon{
+        position: absolute;
+        height: 25px;
+        width: 20px;
+        top: 9px;
+        transform: rotate(-45deg);
+    }
+
+    .headline2 {
+        position: absolute;
+        top: 10px;
+    }
+
+    h3.coupon {
+        color: white;
+        margin-left: 25px; 
+    }
+
+    h4.coupon {
+        position: absolute;
+        color: white;
+        text-decoration: line-through;
+        font-weight: lighter;  
+    }
+
+    h4.sale {
+        left: 70px;
+        text-decoration: none;
+    
+    }
+
+
+
+.color2 {
+    background-image: linear-gradient(270deg, rgb(255, 209, 17), rgb(249, 212, 35));
+    background-color: initial;
+    height: 60px;
+    width: 50%;
+    padding-left: 8%;
+    transform: skewX(-22deg);
+    flex: 0.5;
+    position: absolute;
+    left: 50%;
+
+}
+
+    .flash-icon {
+    position: absolute;
+    height: 25px;
+    width: 20px;
+    top: 9px;
+    animation: blink 1s infinite;
+    }
+
+    .sale2 {
+    width: 160px;
+    }
+
+    .headline3 {
+    position: absolute;
+    top: 10px;
+    }
+
+    .headline-gr1 {
+    padding-left: 16px;
+    }
+    .headline-gr2 {
+    font-weight: lighter;
+    padding-left: 17px;
+
+    }
+
+    .sale2 {
+    transform: skewX(22deg);
+    }
+
+
+/* Phần hiện phiếu giảm giá */
+.five{
+    height: 40px;
+    width: 100%;
+}
+
+.ticket-flex {
+    display: flex;
+}
+
+.ticket-space{
+    position: relative;
+    height: 30px;
+    width: 100px;
+    left: 10px;
+
+}
+
+.ticket-icon{
+    position: absolute;
+    height: 30px;
+    width: 100px;
+    z-index: -1;
+    padding-top: 15px;
+}
+
+.sale-ticket {
+    color: red;
+    padding-top: 8px;
+    text-align: center;
+}
+
+.arrow-icon {
+    position: absolute;
+    height: 25px;
+    left: 95%;
+    padding-top: 15px;
+}
+
+/* Phần tên sản phẩm */
+
+#grid-container2 {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+}
+
+
+.box-name {
+    display: flex;
+    position: absolute;
+    top: 30px;
+    left: 20px;
+    width: 90%;
+    height: auto;
+    flex: 2;
+}
+
+.sale-icon2 {
+    position: absolute;
+    background-color: #fe2b54;
+    width: 100px;
+    height: 20px;
+    border-radius: 10px;
+}
+
+.sale-name {
+    text-align: center;
+    padding-top: 3px;
+    color: white;
+    font-style: oblique;
+    font-weight: lighter;
+}
+
+.product-name {
+    height: auto;    
+}
+
+.bookmark {
+    position: absolute;
+    width: 20px;
+    left: 99%;
+}
+
+.title-headline2{
+    position: relative;
+    top: 80px;
+}
+
+.poin-box {
+    display: flex;
+    position: relative;
+    height: 30px;
+    width: 100%;
+    align-items: flex-start;
+}
+
+.box-gr1 {
+    flex: 2.5;
+    position: relative;
+    width: 100px;
+    left: 5%;
+}
+
+.box-gr2 {
+    flex: 2.5;
+}
+
+.box-gr3 {
+    flex: 4;
+}
+
+.poin-box > .box-gr1 > .star {
+    position: absolute;
+    left: 5%;
+    height: 15px;
+}
+
+.poin {
+    position: absolute;
+    height: 40px;
+    left: 17%;
+    flex: 1;
+}
+
+.poin-box > .box-gr1 > .sell {
+    position: absolute;
+    left: 45%;
+}
+
+.poin-box > .box2{
+    position: absolute;
+    background-color: #afafaf;
+    height: 20px;
+    width: 1px;
+    left: 30%;
+    flex: 1;
+}
+
+.poin-box > .box-gr2 > .sell1 {
+    position: absolute;
+    color: #afafaf;
+    font-weight: lighter;
+    left: 33%;
+    flex: 1.5;
+}
+
+.poin-box > .box-gr2 >.number {
+    position: absolute;
+    left: 45%;
+    flex: 1;
+}
+
+.poin-box > .box-gr3 > .truck {
+    position: absolute;
+    height: 20px;
+    left: 55%;
+    flex: o.5;
+}
+
+.poin-box > .box-gr3 > .free {
+    position: absolute;
+    left: 60%;
+    color: #1cbfc0;
+    flex: 3;
+}
+
+.title-headline3 {
+    position: relative;
+    top: 80px;
+    left: 15px;
+    width: 97%;
+    background-color: #f9f5f2;
+}
+
+.cup {
+    position: relative;
+    height: 25px;
+    width: auto;
+    top: 5px;
+    left: 5px;
+}
+
+.title-cup {
+    color: #9c7131;
+    position: absolute;
+    top: 10px;
+    left: 30px;
+}
+
+.title-cup2 {
+    color: #9c7131;
+    position: absolute;
+    top: 10px;
+    left: 190px;
+    font-weight: lighter;
+}
+
+h4{
+    margin: 0px;
+}
+
+h3 {
+    margin: 0px;
+}
+
+h5 {
+    margin: 15px;
+}
+
+@keyframes blink {
+    0%, 100% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0;
+    }
+
+}
