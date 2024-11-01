@@ -13,23 +13,22 @@ body {
 
 /* Thanh công cụ */
 .first {
-    background-color: blue;
-    height: 30px;
+    height: 60px;
     display: flex;
 }
 
 .head {
     background-color: #f1f1f3;
-    height: 30px;
+    height: 60px;
     flex: 1;
     border: 10px solid white;
 }
 
 .search {
     position: absolute;
-    width: 20px;
-    top: 33px;
-    left: 23px;
+    width: 40px;
+    top: 25px;
+    left: 25px;
 
 }
 
@@ -38,12 +37,12 @@ body {
     color: #7d7d7d;
     font-weight: lighter;
     top: 35px;
-    left: 50px;
+    left: 70px;
     margin: 0px;
 }
 
 .box1 {
-    width: 30px;
+    width: 60px;
     margin-left: 25%;
 }
 
@@ -53,27 +52,29 @@ body {
 
 .item1 {
     background-color: white;
-    height: 30px;
-    width: 30px;
+    height: 60px;
+    width: 60px;
 }
 
 
 /* Phần Tổng quan */
 .second {
-
+    position: relative;
+    top: 35px;
     display: flex;
     flex-direction: column;
-    height: 30px;
+    height: 60px;
 }
 
 .title-headline1 {
     display: flex;
-    height: 30px;
+    height: 40px;
     gap: 10px;
     
 }
 .headline1 {
     margin: 5px;
+    font-size: 20px;
     text-align: center; 
 
 }
@@ -104,13 +105,15 @@ body {
 
 /* Phần hình ảnh */
 .third {
+    position: relative;
+    top: 40px;
     height: auto;
 }
 
 .slider {
     position: relative;
-    max-width: 800px;
-    max-height: 800px;
+    max-width: 1000px;
+    max-height: 1000px;
     margin: auto;
     overflow: hidden;
     
@@ -155,46 +158,51 @@ button {
 }
 
 .color1 {
-    display: flex;
-    justify-content: center;
     position: absolute;
     background-image: linear-gradient(90deg, rgb(223, 38, 52), rgb(245, 85, 70));
     background-color: initial;
-    height: 60px;
-    width: 60%;
-    flex: 1;
+    height: 120px;
+    width: 100%;
+    flex: 0.5;
+    clip-path: polygon(0 0, 55% 0, 45% 100%, 0 100%);
 }
     .sale1 {
-        width: 160px;
+
+        width: 260px;
+        height: auto;
     }
 
     .sale-icon{
         position: absolute;
-        height: 25px;
-        width: 20px;
-        top: 9px;
+        height: 50px;
+        width: 50px;
+        top: 25px;
+        left: 10%;
         transform: rotate(-45deg);
     }
 
     .headline2 {
         position: absolute;
-        top: 10px;
+        top: 30px;
+        left: 15%;
+        width: auto;
+        height: auto;
     }
 
-    h3.coupon {
+    h2.coupon {
         color: white;
         margin-left: 25px; 
     }
 
-    h4.coupon {
+    h3.coupon {
         position: absolute;
         color: white;
         text-decoration: line-through;
         font-weight: lighter;  
     }
 
-    h4.sale {
-        left: 70px;
+    h3.sale {
+        left: 85px;
         text-decoration: none;
     
     }
@@ -204,13 +212,13 @@ button {
 .color2 {
     background-image: linear-gradient(270deg, rgb(255, 209, 17), rgb(249, 212, 35));
     background-color: initial;
-    height: 60px;
-    width: 50%;
+    height: 120px;
+    width: 46%;
     padding-left: 8%;
-    transform: skewX(-22deg);
+    clip-path: polygon(9% 0, 100% 0, 100% 100%, 0 100%);
     flex: 0.5;
     position: absolute;
-    left: 50%;
+    left: 45%;
 
 }
 
@@ -218,35 +226,35 @@ button {
     position: absolute;
     height: 25px;
     width: 20px;
-    top: 9px;
+    top: 40px;
+    left: 30%;
     animation: blink 1s infinite;
     }
 
     .sale2 {
-    width: 160px;
+    width: 260px;
+    height: auto;
     }
 
     .headline3 {
     position: absolute;
-    top: 10px;
+    top: 35px;
+    left: 35%;
+    width: auto
+    height: auto;
     }
 
-    .headline-gr1 {
-    padding-left: 16px;
-    }
+
     .headline-gr2 {
     font-weight: lighter;
-    padding-left: 17px;
-
     }
 
-    .sale2 {
-    transform: skewX(22deg);
-    }
 
 
 /* Phần hiện phiếu giảm giá */
 .five{
+    position: relative;
+    top: 90px;
     height: 40px;
     width: 100%;
 }
@@ -265,23 +273,26 @@ button {
 
 .ticket-icon{
     position: absolute;
-    height: 30px;
-    width: 100px;
+    height: 60px;
+    width: 200px;
     z-index: -1;
-    padding-top: 15px;
 }
 
 .sale-ticket {
+    position: absolute;
+    width: 100px;
+    font-size: 20px;
     color: red;
-    padding-top: 8px;
+    top: 5px;
+    left: 35%;
     text-align: center;
 }
 
 .arrow-icon {
     position: absolute;
-    height: 25px;
+    height: 30px;
     left: 95%;
-    padding-top: 15px;
+    top: 15px;
 }
 
 /* Phần tên sản phẩm */
@@ -289,6 +300,7 @@ button {
 #grid-container2 {
     display: flex;
     position: relative;
+    top: 140px;
     flex-direction: column;
     width: 100%;
     height: auto;
@@ -445,15 +457,18 @@ button {
     font-weight: lighter;
 }
 
-h4{
+.test1 {
+}
+
+h3{
     margin: 0px;
 }
 
-h3 {
+h2 {
     margin: 0px;
 }
 
-h5 {
+h4 {
     margin: 15px;
 }
 
