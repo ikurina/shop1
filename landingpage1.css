@@ -36,7 +36,7 @@ body {
     position: absolute;
     color: #7d7d7d;
     font-weight: lighter;
-    top: 30px;
+    top: 25px;
     left: 70px;
     margin: 0px;
 }
@@ -235,7 +235,7 @@ button {
     position: absolute;
     top: 35px;
     left: 35%;
-    width: auto;
+    width: 400px;
     }
 
 
@@ -277,7 +277,7 @@ button {
     width: 100px;
     font-size: 20px;
     color: red;
-    top: 5px;
+    top: 20px;
     left: 35%;
     text-align: center;
 }
@@ -392,15 +392,15 @@ button {
 .poin-box > .box-gr1 > .name {
     position: absolute;
     margin: 0px;
-    top: 7px;
+    top: 3px;
     left: 35px;
 } 
 
 
 .poin-box > .box-gr1 > .sell {
     position: absolute;
-    top: 7px;
-    left: 75px;
+    top: 2px;
+    left: 95px;
 
 }
 
@@ -434,17 +434,20 @@ button {
 
 .poin-box > .box-gr3 > .free {
     position: absolute;
-    width: 160px;
-    top: 7px;
+    width: 260px;
+    top: px;
     left: 40px;
     color: #1cbfc0;
 }
+
+/* Phần sản phẩm hàng đầu */
 
 .title-headline3 {
     position: relative;
     top: 80px;
     left: 15px;
     width: 97%;
+    height: 37px;
     background-color: #f9f5f2;
 }
 
@@ -459,19 +462,22 @@ button {
 .title-cup {
     color: #9c7131;
     position: absolute;
-    top: 10px;
+    top: 5px;
     left: 30px;
 }
 
 .title-cup2 {
     color: #9c7131;
     position: absolute;
-    top: 10px;
-    left: 190px;
+    top: 5px;
+    left: 290px;
     font-weight: lighter;
 }
 
-.test1 {
+.title-headline4 {
+    position: absolute;
+    height: 50px;
+    background-color: black;
 }
 
 h3{
@@ -480,10 +486,12 @@ h3{
 
 h2 {
     margin: 0px;
+    font-size: 35px;
 }
 
 h4 {
     margin: 0px;
+    font-size: 25px;
 }
 
 @keyframes blink {
