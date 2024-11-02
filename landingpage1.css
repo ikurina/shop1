@@ -696,8 +696,8 @@ button {
     position: absolute;
     color: #1cbfc0;
     font-size: 30px;
-    top: 73px;
-    left: 35px;
+    top: 75px;
+    left: 45px;
 }
 
 .headline5-icon3 {
@@ -753,20 +753,6 @@ button {
     font-weight: lighter;
 }
 
-.hl5-title3 {
-    font-size: 30px;
-    position: absolute;
-    top: 150px;
-    left: 20px;
-    background-color: #ff0958;
-    color: white;
-    height: 70px;
-    width: 240px;
-    text-align: center;
-    padding-top: 40px;
-    border-radius: 15px;
-
-}
 
 
 
@@ -847,6 +833,106 @@ button {
     border: rgb(71, 71, 71) solid 2px;
     border-radius: 4px;
 }
+
+
+
+
+
+
+#buyButton {
+    padding: 10px 20px;
+    font-size: 36px;
+    cursor: pointer;
+    background-color: #ff0958;
+    position: absolute;
+    top: 200px;
+    color: white;
+    height: 90px;
+    width: 240px;
+    text-align: center;
+    border-radius: 15px;
+    left: 25px;
+    z-index: -1;
+  }
+
+  form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+.popup {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 12%;
+    width: 700px;
+    height: 700px;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+}
+
+.popup-conten {
+    background-color: #fff;
+    padding: 20px;
+    width: 90%px;
+    max-width: 400px;
+    border-radius: 10px;
+    text-align: center;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+}
+
+.popup-conten > h2 {
+    font-size: 1.2em;
+    margin-bottom: 15px;
+}
+
+form label {
+    font-size: 24px;
+    margin-top: 10px;
+    width: 100%;
+    text-align: left;
+}
+
+form input {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    font-size: 26px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.submit-button {
+    margin-top: 220px;
+    padding: 10px;
+    font-size: 26px;
+    width: 50%;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.submit-button:hover {
+    background-color: #45a049;
+}
+
+
+.close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+
 
 h3{
     margin: 0px;

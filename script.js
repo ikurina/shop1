@@ -22,3 +22,22 @@ function moveSlide(n) {
 
     showSlide(); // Cập nhật hiển thị sau khi thay đổi slideIndex
 }
+
+
+document.getElementById("buyButton").addEventListener("click", function() {
+    document.getElementById("popupForm").style.display = "flex";
+});
+
+function closePopup() {
+    document.getElementById("popupForm").style.display = "none";
+}
+
+document.getElementById("oderForm").addEventListener("submit", function(event){
+    event.preventDefault();
+    alert("Cảm ơn bạn đã mua hàng!")
+    closePopup();
+});
+
+
+
+

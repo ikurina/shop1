@@ -166,7 +166,7 @@
             <div class="headline5-box4">
                 <h3 class="hl5-title1"> Chính sách đổi trả</h3>
                 <h4 class="hl5-title2">Trả hàng trong vòng 7 ngày - Huỷ đơn dễ dàng - Hoàn hàng miễn phí</h4>
-                <h3 class="hl5-title3">Mua ngay</h3>
+                <button id="buyButton">Mua hàng</button>
             </div>
             <div class="box-color6"></div>
         </div>
@@ -185,12 +185,30 @@
 
         </div>
 
+    </div>
+
+<div id="popupForm" class="popup">
+    <div class="popup-content">
+        <span class="close" onclick="closePopup()">&times;</span>
+        <h2>Điền thông tin của bạn</h2>
+        <form id="oderForm">
+            <label for="name">Tên</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="address">Địa chỉ</label>
+            <input type="text" id="address" name="address" required>
+
+            <label for="phone">Số điện thoại</label>
+            <input type="text" id="phone" name="phone" required>
+
+            <button type="submit" class="submit-button">Đặt hàng</button>
+        </form>
 
     </div>
 
+</div>
 
-
-    <script src="script.js"></script>
+<script src="script.js"></script>
         
 </body>
 </html>
