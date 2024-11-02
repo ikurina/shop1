@@ -7,7 +7,7 @@ body {
 #grid-container {
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 50px 50px auto auto auto;
+    grid-template-rows: 50px 50px auto auto auto auto;
     align-items: center;
 }
 
@@ -554,6 +554,170 @@ button {
     left: 35px;
     top: 5px;
 }
+
+/* Phần thông số sản phẩm */
+
+#box-product {
+    position: relative;
+    top: 230px;
+    background-color: #1cbfc0;
+    height: 350px;
+    width: 100%;
+}
+
+#box-product > h4 {
+    position: absolute;
+    top: 70px;
+    left: 150px;
+    text-align: center;
+}
+
+#grid-container2 > #title-headline5 {
+    position: relative;
+    top: 260px;
+    height: 200px;
+    width: auto;
+}
+
+#title-headline5 > .box-color3 {
+    background-color: rgb(249, 249, 249);
+    position: absolute;
+    height: 5px;
+    width: 100%;
+}
+
+#title-headline5 > .headline5-box1 {
+    position: absolute;
+    top: 15px;
+    left: 20px;
+}
+
+.headline5-box1 > h4 {
+    font-size: 35px;
+}
+
+
+.headline5-box2 > h5 {
+    position: absolute;
+    top: 45px;
+    left: 22px;
+    background-color: #41b983;
+    height: 20px;
+    width: 40px;
+    text-align: center;
+    padding-top: 5px;
+    border-radius: 3px;
+    color: white;
+}
+
+.headline5-box2 > h4 {
+    position: absolute;
+    top: 65px;
+    left: 63px;
+    font-weight: lighter;
+    font-size: 25px;
+}
+
+#title-headline5 > .box-color4 {
+    background-color: rgb(249, 249, 249);
+    position: absolute;
+    height: 2px;
+    width: 100%;
+    position: absolute;
+    top: 120px;
+}
+
+.headline5-box3 {
+    position: absolute;
+    top: 135px;
+    width: 100%;
+    height: 245px;
+}
+
+.headline5-box3 > h4 {
+    position: absolute;
+    left: 20px;
+    font-size: 35px;
+}
+
+.headline5-box3 > h5 {
+    color: #928f8f;
+    position: absolute;
+    left: 80%;
+    text-decoration: line-through;
+    margin: 0px;
+    font-size: 25px;
+}
+
+.headline5-box3 > .free1 {
+    position: absolute;
+    left: 90%;
+    text-decoration: none;
+}
+
+.headline5-icon1 {
+    position: absolute;
+    height: 25px;
+    left: 96%;
+}
+
+.headline5-icon2 {
+    position: absolute;
+    top: 40px;
+    left: 15px;
+    height: 53px;
+    width: 435px;
+}
+
+.headline5-box3 > .free2 {
+    position: absolute;
+    font-size: 25px;
+    top: 47px;
+    font-weight: lighter;
+    line-height: 40px;
+}
+
+.headline5-box3 > .free3 {
+    position: absolute;
+    color: #1cbfc0;
+    font-size: 25px;
+    top: 53px;
+    left: 35px;
+}
+
+.headline5-icon3 {
+    position: absolute;
+    top: 180px;
+    height: 53px;
+    left: 15px;
+    width: 150px;
+}
+
+.headline5-box3 > .free4 {
+    position: absolute;
+    top: 190px;
+    left: 35px;
+    font-size: 25px;
+    color: #1cbfc0;
+}
+
+.headline5-box3 > .free5 {
+    position: absolute;
+    top: 190px;
+    left: 180px;
+    font-size: 25px;
+    font-weight: lighter;
+}
+
+#title-headline5 > .box-color5 {
+    background-color: rgb(249, 249, 249);
+    position: absolute;
+    height: 2px;
+    width: 100%;
+    position: absolute;
+    top: 380px;
+}
+
 
 h3{
     margin: 0px;
