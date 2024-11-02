@@ -15,6 +15,7 @@ body {
 .first {
     height: 60px;
     display: flex;
+    position: relative;
 }
 
 .head {
@@ -27,7 +28,7 @@ body {
 .search {
     position: absolute;
     width: 40px;
-    top: 25px;
+    top: 12px;
     left: 25px;
 
 }
@@ -36,18 +37,21 @@ body {
     position: absolute;
     color: #7d7d7d;
     font-weight: lighter;
-    top: 25px;
+    top: 12px;
     left: 70px;
     margin: 0px;
 }
 
 .box1 {
+    position: absolute;
     width: 60px;
-    margin-left: 25%;
+    top: 30px;
 }
 
 .item {
     flex: 5;
+    position: relative;
+    top: 20px;
 }
 
 .item1 {
@@ -60,7 +64,7 @@ body {
 /* Phần Tổng quan */
 .second {
     position: relative;
-    top: 35px;
+    top: 55px;
     display: flex;
     flex-direction: column;
     height: 60px;
@@ -74,7 +78,7 @@ body {
 }
 .headline1 {
     margin: 5px;
-    font-size: 20px;
+    font-size: 25px;
     text-align: center; 
 
 }
@@ -92,8 +96,8 @@ body {
 .line-black{
     background-color: black;
     height: 2px;
-    width: 16%;
-    margin-left: 4%;
+    width: 20%;
+    margin-left: 2%;
 
 }
 
@@ -101,7 +105,7 @@ body {
 /* Phần hình ảnh */
 .third {
     position: relative;
-    top: 40px;
+    top: 50px;
     height: auto;
 }
 
@@ -208,7 +212,7 @@ button {
     background-image: linear-gradient(270deg, rgb(255, 209, 17), rgb(249, 212, 35));
     background-color: initial;
     height: 120px;
-    width: 46%;
+    width: 47%;
     padding-left: 8%;
     clip-path: polygon(9% 0, 100% 0, 100% 100%, 0 100%);
     flex: 0.5;
@@ -219,10 +223,10 @@ button {
 
     .flash-icon {
     position: absolute;
-    height: 25px;
-    width: 20px;
-    top: 40px;
-    left: 30%;
+    height: 30px;
+    width: 30px;
+    top: 38px;
+    left: 26%;
     animation: blink 1s infinite;
     }
 
@@ -233,8 +237,8 @@ button {
 
     .headline3 {
     position: absolute;
-    top: 35px;
-    left: 35%;
+    top: 30px;
+    left: 32%;
     width: 400px;
     }
 
@@ -274,10 +278,10 @@ button {
 
 .sale-ticket {
     position: absolute;
-    width: 100px;
-    font-size: 20px;
+    width: 130px;
+    font-size: 25px;
     color: red;
-    top: 20px;
+    top: 17px;
     left: 35%;
     text-align: center;
 }
@@ -319,7 +323,7 @@ button {
 .sale-icon2 {
     position: absolute;
     background-color: #fe2b54;
-
+    top: 10px;
     width: 100px;
     height: 40px;
     border-radius: 20px;
@@ -336,8 +340,9 @@ button {
 }
 
 .product-name {
-
-    line-height: 1.5;
+    position: absolute;
+    font-size: 50px;
+    line-height: 1.2;
 }
 
 .bookmark {
