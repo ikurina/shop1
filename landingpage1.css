@@ -864,7 +864,7 @@ button {
 .popup {
     display: none;
     position: fixed;
-    top: 50%;
+    top: 25%;
     left: 12%;
     width: 700px;
     height: 700px;
