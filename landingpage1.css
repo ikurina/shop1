@@ -772,6 +772,82 @@ button {
 
 
 
+.hl6-box1 {
+    height: 200px;
+    position: absolute;
+    width: 100%;
+}
+
+.box-color6 {
+    position: relative;
+    top: 820px;
+    height: 5px;
+    width: 100%;
+    background-color: #f9f9f9;
+}
+
+.title-headline6 {
+    position: relative;
+    top: 1170px;
+}
+
+.hl6-color1 {
+    position: absolute;
+    background-color: #f8f3f7;
+    height: 180px;
+    width: 180px;
+    border-radius: 50%;
+    left: 60px;
+}
+
+.hl6-img {
+    position: absolute;
+    height: 100px;
+    top: 40px;
+    left: 100px;
+}
+
+.shop-name {
+    position: absolute;
+    left: 270px;
+    font-size: 40px;
+    top: 20px;
+}
+
+.hl6-poin-box {
+    position: relative;
+    background-color: rgb(234, 245, 239);
+    border: rgb(219, 230, 244) solid 1px;
+    top: 80px;
+    left: 270px;
+    width: 80px;
+}
+
+.hl6-star {
+    position: absolute;
+    height: 30px;
+    padding-left: 5px;
+}
+
+.hl6-poin {
+    text-align: center;
+    padding-left: 30px;
+    padding-top: 3px;
+    top: 3px;
+}
+
+.hl6-title1 {
+    position: absolute;
+    top: 15px;
+    font-size: 30px;
+    color: rgb(71, 71, 71);
+    padding: 10px;
+    font-weight: bold;
+    left: 80%;
+    border: rgb(71, 71, 71) solid 2px;
+    border-radius: 4px;
+}
+
 h3{
     margin: 0px;
 }
