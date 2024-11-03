@@ -927,6 +927,50 @@ button {
     font-size: 35px;
 }
 
+.hl7-title5 {
+    margin-top: 30px;
+    font-size: 35px;
+}
+
+.hl7-title6 {
+    font-size: 30px;
+}
+
+.box-color8 {
+    height: 5px;
+    background-color: #f9f9f9;
+    width: 100%;
+    margin-top: 50px;
+}
+
+
+.title-headline8 {
+    position: fixed;
+    display: flex;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: white;
+    z-index: 9999;
+    padding: 10px;
+    text-align: center;
+    justify-content: center;
+    backface-visibility: hidden;
+}
+
+.hl8-img1 {
+    height: 70px;
+}
+
+.hl8-img2 {
+    height: 70px;
+}
+
+
+
+
+
+
 #buyButton {
     padding: 10px 20px;
     font-size: 36px;
@@ -940,7 +984,6 @@ button {
     text-align: center;
     border-radius: 15px;
     left: 25px;
-    z-index: -1;
   }
 
   form {
@@ -959,6 +1002,7 @@ button {
     background-color: white;
     justify-content: center;
     align-items: center;
+    z-index: 10;
 }
 
 .popup-conten {
