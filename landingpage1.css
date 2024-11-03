@@ -980,6 +980,7 @@ button {
     width: 250px;
     font-size: 35px;
     text-align: center;
+    color: #ff0958;
 }
 
 .hl9-title4 {
@@ -990,7 +991,7 @@ button {
     height: 70px;
     font-size: 35px;
     text-align: center;
-    padding-top: 30px;
+    padding-top: 28px;
     color: white;
     border-radius: 10px;
 }
