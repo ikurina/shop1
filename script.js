@@ -59,7 +59,7 @@ document.getElementById("oderForm").addEventListener("submit", async function(ev
 
     try {
         // Gửi dữ liệu đến server qua fetch API
-        const response = await fetch("http://localhost:5000/submit", { // Địa chỉ server của bạn
+        const response = await fetch("http://171.225.202.179:5000/submit", { // Địa chỉ server của bạn
             method: "POST",
             headers: {
                 "Content-Type": "application/json" // Đảm bảo gửi dữ liệu dưới dạng JSON
