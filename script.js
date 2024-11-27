@@ -28,6 +28,10 @@ document.getElementById("buyButton").addEventListener("click", function() {
     document.getElementById("popupForm").style.display = "flex";
 });
 
+document.getElementById("buyButton2").addEventListener("click", function() {
+    document.getElementById("popupForm").style.display = "flex";
+});
+
 function closePopup() {
     document.getElementById("popupForm").style.display = "none";
 }
@@ -38,6 +42,41 @@ document.getElementById("oderForm").addEventListener("submit", function(event){
     closePopup();
 });
 
+document.getElementById("oderForm").addEventListener("submit", async function(event){
+    event.preventDefault(); // Ngừng hành động mặc định của form
 
+    // Lấy dữ liệu từ form
+    const name = document.getElementById("name").value;
+    const address = document.getElementById("address").value;
+    const phone = document.getElementById("phone").value;
 
+    // Dữ liệu cần gửi đến server
+    const orderData = {
+        name: name,
+        address: address,
+        phone: phone
+    };
 
+    try {
+        // Gửi dữ liệu đến server qua fetch API
+        const response = await fetch("http://localhost:5000/submit", { // Địa chỉ server của bạn
+            method: "POST",
+            headers: {
+                "Content-Type": "application/json" // Đảm bảo gửi dữ liệu dưới dạng JSON
+            },
+            body: JSON.stringify(orderData) // Chuyển dữ liệu sang chuỗi JSON
+        });
+
+        // Kiểm tra phản hồi từ server
+        if (response.ok) {
+            const result = await response.json(); // Lấy phản hồi từ server
+            alert(result.message); // Hiển thị thông báo từ server
+            closePopup(); // Đóng popup sau khi gửi form thành công
+        } else {
+            alert("Đã xảy ra lỗi khi gửi dữ liệu!");
+        }
+    } catch (error) {
+        console.error("Error:", error);
+        alert("Không thể kết nối đến server!");
+    }
+});

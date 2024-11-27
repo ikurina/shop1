@@ -983,18 +983,6 @@ button {
     color: #ff0958;
 }
 
-.hl9-title4 {
-    position: absolute;
-    right: 10%;
-    background-color: #ff446a;
-    width: 250px;
-    height: 70px;
-    font-size: 35px;
-    text-align: center;
-    padding-top: 28px;
-    color: white;
-    border-radius: 10px;
-}
 
 .hl9-img1 {
     height: 70px;
@@ -1022,6 +1010,21 @@ button {
     text-align: center;
     border-radius: 15px;
     left: 25px;
+  }
+
+  #buyButton2 {
+    padding: 10px 20px;
+    font-size: 36px;
+    cursor: pointer;
+    background-color: #ff0958;
+    position: absolute;
+    top: 60px;
+    color: white;
+    height: 90px;
+    width: 240px;
+    text-align: center;
+    border-radius: 15px;
+    left: 700px;
   }
 
   form {
